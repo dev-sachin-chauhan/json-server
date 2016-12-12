@@ -1,0 +1,25 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "json rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-sachin-chauhan/json-server.git"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "Sachin Chauhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-sachin-chauhan/json-server/issues"
+  },
+  "homepage": "https://github.com/dev-sachin-chauhan/json-server#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
