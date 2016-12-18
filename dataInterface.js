@@ -1,18 +1,12 @@
-var DI = function(){
+
+
+var Interface = require('./interface');
+var dataInterface = function(dataObject) {
+    var checkData = new Interface('checkData',['listUsers','getUser','addUser','deleteUser']);
+
+    Interface.ensureImplements(dataObject, checkData);
+
+    return dataObject;
 }
 
-DI.prototype.listUsers(){
-	
-}
-
-DI.prototype.addUser(user){
-
-}
-
-DI.prototype.deleteUser(user){
-
-}
-
-DI.prototype.getUser(id){
-
-}
+module.exports = dataInterface;
